@@ -1,0 +1,58 @@
+
+header{
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(https://koloapp.in/images/hero-bg.webp);
+    height: 70vh;
+    background-color: rgba(0,0,0,.5);
+}
+nav{
+    font-size: 1.7rem;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+}
+.right_menu{
+    display: flex;
+    gap: 1rem;
+}
+.left_menu .menu a:hover{
+    color: rgb(243, 30, 30);
+}
+.right_menu img{
+    height: 4rem;
+    display: flex;
+}
+.left_menu .logo img{
+    width: 6rem;
+}
+.left_menu{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    
+}
+.left_menu .menu{
+    gap: 3rem;
+    display: flex;
+}
+.left_menu .menu a{
+    color: white;
+    text-decoration: none;
+}
+
+/* ------------hero section----- */
+
+.hero_section{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 6rem;
+    gap: 3rem;
+}
+.hero_section h1{
+    font-size: 5rem;
+}
+.hero_section h2{
+    font-size: 2rem;
+}

@@ -1,0 +1,33 @@
+
+.professional_container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.professional_container h2{
+    font-size: 3rem;
+    margin: 6rem auto;
+}
+
+.professional_container .all_places{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+.professional_container .profission_name{
+    display: flex;
+    /* margin: 9rem; */
+    width: 34rem;
+    align-items: center;
+    justify-content: space-around;
+    height: 5rem;
+    font-size: 1.7rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(216, 213, 213);
+}
+.professional_container .profission_name svg{
+    width: 3rem;
+}

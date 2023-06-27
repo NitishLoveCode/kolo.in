@@ -1,0 +1,30 @@
+.now_live_at{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(254,240,229);
+}
+.now_live_at h2{
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+.now_live_at .all_places{
+    display: flex;
+    gap: 2rem;
+    margin: 3rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.all_places .live_places{
+    border: 3px solid rgb(251,126,0);
+    color: rgb(251,126,0);
+    font-size: 1.7rem;
+    padding: 1.5rem 2rem;
+    border-radius: 4rem;
+
+}
+.all_places .live_places svg{
+    width: 2rem;
+}

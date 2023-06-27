@@ -1,0 +1,21 @@
+.action_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin: 7rem auto;
+    padding-bottom: 7rem;
+    border-bottom: 1px solid gray;
+
+}
+.action_section .action_content h2{
+    font-size: 3rem;
+}
+
+.action_section .left_img img{
+    width: 50rem;
+}
+.action_section .app_link img{
+    width: 20rem;
+    margin-top: 5rem;
+}
