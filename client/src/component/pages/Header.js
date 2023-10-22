@@ -23,7 +23,7 @@ export default function Header() {
         </nav>
 
         <div className="hero_section">
-            <h1>India's Largest Homen Community</h1>
+            <h1>India's Largest Homen Community Nitish kumar</h1>
             <h2>Find Designs · Find Professionals · Ask Queries</h2>
             <div className="right_menu">
                 <img src="https://koloapp.in/_next/static/media/download_from_play_store.715651b7.png" alt="from playstore" />
